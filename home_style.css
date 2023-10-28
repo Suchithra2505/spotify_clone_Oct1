@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  body{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+@media only screen and (max-width: 600px) {
+  #Left_section{
+    width:100%;
+  }
+  #Right_section{
+    width:100%;
+  }
+  #container{
+    display:flex;
+    flex-direction: column;
+  }
+  #pop_now{
+    flex-direction: column;
+  }
+      footer{
+        display: none;
+      }
+}
+
+  #container{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+  }
+
+  #Left_section{
+    width: 371px;
+    height: 982px;
+    flex-shrink: 0;
+    flex:2;
+    background: #000;
+    }
+#spacer{
+  width: 230px;
+height: 230px;
+}
+
+#art{
+  width: 230px;
+height: 230px;
+flex-shrink: 0;
+vertical-align: bottom;
+}
+
+#Spotify_logo{
+    width: 202.576px;
+height: 60.526px; 
+flex-shrink: 0;
+padding-top: 3%;
+}
+.left_options{
+width: 347.097px;
+height: 170.46px;
+flex-shrink: 0;
+}
+
+.sm{
+width: 121.052px;
+height: 32.116px;
+flex-shrink: 0;
+
+margin-top: 5%;
+display: flex;
+margin-left: 5%;
+}
+.sm>img{
+  width: 29.645px;
+  height: 32.116px;
+  flex-shrink: 0;
+}
+.sm>h5{
+width: 120.996px;
+height: 30.116px;
+flex-shrink: 0;
+color: #FFF;
+font-family: DM Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+margin-left: 10%;
+}
+
+
+
+#Right_section{
+  width: 1745.435px;
+  height: 1109.889px;
+  flex:7;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+}
+
+#pop_now{
+  width: 900.97px;
+height: 233.069px;
+flex-shrink: 0;
+padding-top: 7%;
+display: flex;
+}
+
+#popnow_text{
+  padding-top: 10%;
+}
+
+#h6{
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.26px;
+ 
+}
+
+#h1{
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.8px;
+ 
+}
+
+#h7_1{
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.9%; /* 20.566px */
+  letter-spacing: -0.28px;
+  opacity: 0.7;
+ 
+}
+
+#h7_2{
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.9%; /* 22.035px */
+  letter-spacing: -0.3px;
+ 
+}
+#h7_3{
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  opacity: 0.7;
+}
+
+#play_section{
+width: 1690px;
+height: 400px;
+flex-shrink: 0;
+opacity: 0.15;
+background: #000;
+margin-top: 10%;
+}
+
+#play_menu{
+  width: 1690px;
+height: 60px;
+flex-shrink: 0;
+background: #000;
+}
+#img_1{
+  width: 55px;
+  height: 55px;
+  margin-top: 1%;
+margin-left: 3%;
+}
+#img_2{
+  width: 46px;
+  height: 46px;
+  margin-left: 1%;
+}
+#img_3{
+  width: 46px;
+  height: 46px;
+  margin-left: 1%;
+}
+#play_header{
+  width: 1690px;
+height: 20px;
+flex-shrink: 0;
+margin-top: 2%;
+display: flex;
+}
+#play_header>h6{
+height: 15.514px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Circular Std;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.32px;
+}
+#play_header>hr{
+  height: 1px;
+  opacity: 0.1;
+  background: #FFF;
+  margin-top: .3%;
+  }
+
+#tt_1{ width: .3%;margin-left: 3%;}
+#tl_1{ width: 1%;}
+#tt_2{ width: 2%;}
+#tl_2{ width: 20%;}
+#tt_3{ width: 2%;}
+#tl_3{ width: 27%;}
+#tt_4{ width: 8%;}
+#tl_4{ width: 30%;}
+
+
+
+
+#play_items{
+  width: 1690px;
+  height: 200px;
+  background: #000;
+}
+
+.pl_item{
+  width: 1550px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 5px;
+display: flex;
+margin-top: 1%;
+background-color:darkslategrey;
+}
+.pl_1{
+  width: 8.013px;
+  color: #FFF;
+text-align: center;
+font-family: Circular Std;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 18.188px; /* 106.986% */
+opacity: 0.7;
+margin-left: 3%;
+margin-top: 1.5%;
+}
+.pl_2{
+  width: 35.615px;
+height: 40px;
+flex-shrink: 0;
+background: lightgray 50% / cover no-repeat, #C4C4C4;
+box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+margin-left: 1%;
+}
+.pl_3{
+margin-left: 2%;
+margin-top: .8%;
+}
+.pl_3_1{
+  width: 75.683px;
+  color: #FFF;
+font-family: Circular Std;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18.188px; /* 113.672% */
+}
+.pl_3_2{
+  width: 60.862px;
+  color: #FFF;
+font-family: Circular Std;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.pl_4{
+  width: 400.829px;
+  color: #FFF;
+font-family: Circular Std;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 16.5%;
+margin-top: .8%;
+}
+.pl_5{
+  width: 50px;
+  color: #FFF;
+font-family: Noto Sans CJK KR;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 8%;
+margin-top: .8%;
+}
+.pl_6{
+  width: 26.712px;
+  color: #FFF;
+font-family: Circular Std;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30%;
+margin-top: .8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  margin-top: auto;
+  background: #181818;
+}
+
+#Download_options{
+  width: 100%;
+  height: 112px;
+  flex-shrink: 0;
+}
+
+#left{
+  margin-left: 3%;
+  width: 227.095px;
+  height: 70px;
+  flex-shrink: 0;
+}
+#centre{
+  width: 704px;
+  height: 80px;
+  flex-shrink: 0;
+  margin-left: 15%;
+}
+#right{
+  width: 273.422px;
+  height: 32px;
+  flex-shrink: 0;
+  float: right;
+  padding-right: 3%;
+}
+
+#Listening_ondevice{
+  width: 100%;
+  height: 41px;
+  flex-shrink: 0;
+}
+
+#Listening_ondevice>img{
+  width: 100%;
+  height: 41px;
+  flex-shrink: 0;
+}
+
+

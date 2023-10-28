@@ -8,8 +8,8 @@
   }
 
   body{
-    width: 100%;
-    height: 100%;
+    width: 1890px;
+    height: 900px;
     flex-shrink: 0;
     min-height: 100vh;
     display: flex;
@@ -24,7 +24,7 @@
 
   #Left_section{
     width: 371.801px;
-    height: 982px;
+    height: 1100px;
     flex-shrink: 0;
     flex:2;
     background: #000;
@@ -41,6 +41,44 @@ width: 347.097px;
 height: 170.46px;
 flex-shrink: 0;
 }
+
+
+#excep{
+  width: 230.052px;
+  height: 40.116px;
+  flex-shrink: 0;
+  background: #000;
+  border: black;
+  margin-top: 5%;
+  display: flex;
+  margin-left: 5%;
+  }
+  #excep>img{
+    width: 29.645px;
+    height: 32.116px;
+    flex-shrink: 0;
+  }
+  #excep>h5{
+  width: 120.996px;
+  height: 30.116px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.14px;
+  
+  margin-left: 10%;
+  }
+
+
+
+
+
+
+
 
 .sm{
 width: 121.052px;
@@ -96,7 +134,7 @@ letter-spacing: -1.567px;
 }
 
 #Right_section{
-  width: 1745.435px;
+  width: 1728px;
   height: 1109.889px;
   flex:7;
   flex-shrink: 0;
@@ -188,6 +226,22 @@ padding-left: 5%;
   display: flex;
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 600px) {
+  #container{
+    flex-direction: column;
+  }
+  #tiles{
+    flex-direction: column;
+      }
+  #shows_list{
+    flex-direction: column;
+      }
+      footer{
+        display: none;
+      }
+}
+
 
 #tiles>button{
   width: 362px;
@@ -357,7 +411,7 @@ footer{
 }
 
 #Listening_ondevice>img{
-  width: 100%;
+  width: 96%;
   height: 41px;
   flex-shrink: 0;
 }
