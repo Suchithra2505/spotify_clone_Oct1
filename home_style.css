@@ -31,6 +31,9 @@
   #pop_now{
     flex-direction: column;
   }
+  #pop_now>h1{
+    display: none;
+  }
       footer{
         display: none;
       }
